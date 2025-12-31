@@ -105,6 +105,31 @@ This project was developed as an academic full-stack web application inspired by
 <p align="center"><i>This flow mimics real-world movie ticket booking platforms</i></p>
 
 ---
+## 🧭 User Booking Flow Diagram  
+**Visual walkthrough of the end-to-end ticket booking process**
+
+<p align="center">
+  <img src="assets/flowcharts/user-booking-flow.png" width="70%" />
+</p>
+
+<p align="center">
+  <i>
+    This flowchart illustrates the complete user journey in ShowBuzz — 
+    from opening the application and authentication to seat selection 
+    and final booking confirmation.
+  </i>
+</p>
+
+### 🔍 Flow Explanation
+1. User opens the application
+2. System checks authentication status  
+   - If not authenticated → redirect to login
+3. Authenticated user browses available movies
+4. User selects a movie, theater, and showtime
+5. Seats are chosen from the interactive layout
+6. Booking is confirmed
+7. System displays booking confirmation and ends the flow
+---
 
 ## 🎥 Demo & Screenshots  
 _A complete walkthrough of the ShowBuzz user and admin experience_
@@ -125,7 +150,7 @@ _A complete walkthrough of the ShowBuzz user and admin experience_
 **Browse trending and recommended movies at a glance**
 
 <p align="center">
-  <img src="assets/screenshots/home.png" width="85%" />
+  <img src="assets/screenshots/home.jpeg" width="85%" />
 </p>
 <p align="center"><i>Displays popular movies with posters, ratings, and booking options</i></p>
 
@@ -135,7 +160,7 @@ _A complete walkthrough of the ShowBuzz user and admin experience_
 **Explore movie information before booking**
 
 <p align="center">
-  <img src="assets/screenshots/movie-details.png" width="85%" />
+  <img src="assets/screenshots/movie-details.jpeg" width="85%" />
 </p>
 <p align="center"><i>Detailed view including movie description, ratings, language, duration, and trailer</i></p>
 
@@ -145,7 +170,7 @@ _A complete walkthrough of the ShowBuzz user and admin experience_
 **Choose your preferred theater and showtime**
 
 <p align="center">
-  <img src="assets/screenshots/theater-selection.png" width="85%" />
+  <img src="assets/screenshots/theater-selection.jpeg" width="85%" />
 </p>
 <p align="center"><i>Lists available theaters with multiple show timings for the selected movie</i></p>
 
@@ -155,7 +180,7 @@ _A complete walkthrough of the ShowBuzz user and admin experience_
 **Select how many seats you want to book**
 
 <p align="center">
-  <img src="assets/screenshots/ticket-selection.png" width="85%" />
+  <img src="assets/screenshots/ticket-selection.jpeg" width="85%" />
 </p>
 <p align="center"><i>Simple interface to choose ticket count and seating category</i></p>
 
@@ -165,7 +190,7 @@ _A complete walkthrough of the ShowBuzz user and admin experience_
 **Interactive real-time seat booking**
 
 <p align="center">
-  <img src="assets/screenshots/seat-selection.png" width="85%" />
+  <img src="assets/screenshots/seat-selection.jpeg" width="85%" />
 </p>
 <p align="center"><i>Visual seat layout showing available, selected, and booked seats</i></p>
 
@@ -175,7 +200,7 @@ _A complete walkthrough of the ShowBuzz user and admin experience_
 **Review and confirm your ticket details**
 
 <p align="center">
-  <img src="assets/screenshots/confirmation.png" width="85%" />
+  <img src="assets/screenshots/confirmation.jpeg" width="85%" />
 </p>
 <p align="center"><i>Final booking summary with movie, theater, seats, timing, and total cost</i></p>
 
@@ -185,7 +210,7 @@ _A complete walkthrough of the ShowBuzz user and admin experience_
 **Add, edit, and manage movies**
 
 <p align="center">
-  <img src="assets/screenshots/admin-movies.png" width="85%" />
+  <img src="assets/screenshots/admin-movies.jpeg" width="85%" />
 </p>
 <p align="center"><i>Admin interface to manage movie listings and metadata</i></p>
 
@@ -195,7 +220,7 @@ _A complete walkthrough of the ShowBuzz user and admin experience_
 **Control theater listings**
 
 <p align="center">
-  <img src="assets/screenshots/admin-theaters.png" width="85%" />
+  <img src="assets/screenshots/admin-theaters.jpeg" width="85%" />
 </p>
 <p align="center"><i>Admins can add, edit, or remove theaters from the system</i></p>
 
@@ -205,7 +230,7 @@ _A complete walkthrough of the ShowBuzz user and admin experience_
 **Monitor all user bookings**
 
 <p align="center">
-  <img src="assets/screenshots/admin-bookings.png" width="85%" />
+  <img src="assets/screenshots/admin-bookings.jpeg" width="85%" />
 </p>
 <p align="center"><i>Complete booking history with user, movie, theater, seats, and payment details</i></p>
 
