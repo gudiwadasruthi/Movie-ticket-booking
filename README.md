@@ -140,7 +140,7 @@ _A complete walkthrough of the ShowBuzz user and admin experience_
 **Secure access for users and administrators**
 
 <p align="center">
-  <img src="assets/screenshots/login.png" width="85%" />
+  <img src="assets/screenshots/login.jpeg" width="85%" />
 </p>
 <p align="center"><i>Users and admins log in through a clean, role-based authentication interface</i></p>
 
